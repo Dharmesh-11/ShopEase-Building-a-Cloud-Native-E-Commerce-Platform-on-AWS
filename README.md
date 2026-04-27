@@ -1,5 +1,3 @@
-# ShopEase-Building-a-Cloud-Native-E-Commerce-Platform-on-AWS
-
 # 🛒 ShopEase: Cloud-Native E-Commerce Platform on AWS
 
 ---
