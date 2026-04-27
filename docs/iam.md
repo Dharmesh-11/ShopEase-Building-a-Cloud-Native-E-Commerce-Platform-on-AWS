@@ -35,7 +35,7 @@ Created multiple IAM users instead of using root account.
 - user-5
 
 📸 Screenshot:
-![IAM Users](../architecture/screenshots/iam-users.png)
+![IAM Users](../screenshots/task-2-IAM/users.png)
 
 ---
 
@@ -44,7 +44,7 @@ Created multiple IAM users instead of using root account.
 Enabled MFA for extra login security.
 
 📸 Screenshot:
-![MFA](../architecture/screenshots/iam-mfa.png)
+![MFA](../screenshots/task-2-IAM/MFA.png)
 
 ---
 
@@ -53,7 +53,7 @@ Enabled MFA for extra login security.
 Groups help manage permissions easily.
 
 📸 Screenshot:
-![IAM Groups](../architecture/screenshots/iam-groups.png)
+![IAM Groups](../screenshots/task-2-IAM/group.png)
 
 ---
 
@@ -72,22 +72,19 @@ Groups help manage permissions easily.
 }
 ```
 
-📸 Screenshot:
-![IAM Policy](../architecture/screenshots/iam-policy.png)
-
 ---
 
 # 🔗 5. IAM Role for EC2
 
 📸 Screenshot:
-![IAM Role](../architecture/screenshots/iam-role.png)
+![IAM Role](../screenshots/task-2-IAM/role.png)
 
 ---
 
 # ⚙️ 6. Role Permissions
 
 📸 Screenshot:
-![Role Permissions](../architecture/screenshots/iam-role-permissions.png)
+![Role Permissions](../screenshots/task-2-IAM/permission.png)
 
 ---
 
