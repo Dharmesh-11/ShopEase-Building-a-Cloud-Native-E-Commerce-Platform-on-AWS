@@ -18,7 +18,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 | DNS Resolution | Enabled |
 
 📸 Screenshot:
-![VPC](screenshots/step-1.png)
+![VPC](../screenshots/task-1-vpc/step-1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 | Database | db-subnet-2 | 10.0.6.0/24 |
 
 📸 Screenshot:
-![Subnets](screenshots/step-2.png)
+![Subnets](../screenshots/task-1-vpc/step-2.png)
 
 ---
 
@@ -44,7 +44,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 - Attached to VPC
 
 📸 Screenshot:
-![IGW](screenshots/step-3.png)
+![IGW](../screenshots/task-1-vpc/step-3.png)
 
 ---
 
@@ -55,7 +55,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 - Used for private subnet internet access
 
 📸 Screenshot:
-![NAT](screenshots/step-4.png)
+![NAT](../screenshots/task-1-vpc/step-4.png)
 
 ---
 
@@ -71,7 +71,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 - No internet access (secure)
 
 📸 Screenshot:
-![Route Tables](screenshots/step-5.png)
+![Route Tables](../screenshots/task-1-vpc/step-5.png)
 
 ---
 
@@ -82,7 +82,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 - DB subnets → DB route table
 
 📸 Screenshot:
-![Subnet Association](screenshots/step-6.png)
+![Subnet Association](../screenshots/task-1-vpc/step-6.png)
 
 ---
 
@@ -95,7 +95,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 - Allow Ephemeral Ports
 
 📸 Screenshot:
-![Public NACL](screenshots/step-7.png)
+![Public NACL](../screenshots/task-1-vpc/step-7.png)
 
 ---
 
@@ -104,7 +104,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 - Allow ephemeral ports
 
 📸 Screenshot:
-![Private NACL](screenshots/step-8.png)
+![Private NACL](../screenshots/task-1-vpc/step-10.png)
 
 ---
 
@@ -112,7 +112,7 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 - Allow MySQL (3306) from private subnet only
 
 📸 Screenshot:
-![DB NACL](screenshots/step-9.png)
+![DB NACL](../screenshots/task-1-vpc/step-11.png)
 
 ---
 
@@ -121,10 +121,6 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 - Public → Allow All
 - Private → Allow via NAT
 - DB → Restricted
-
-📸 Screenshot:
-![Outbound Rules](screenshots/step-10.png)
-
 ---
 
 ## ✅ Final Verification
@@ -135,9 +131,6 @@ Design and implement a secure, scalable AWS VPC architecture for a 3-tier applic
 ✔ NAT Gateway working  
 ✔ Route tables configured  
 ✔ NACL security applied  
-
-📸 Screenshot:
-![Final](screenshots/step-11.png)
 
 ---
 

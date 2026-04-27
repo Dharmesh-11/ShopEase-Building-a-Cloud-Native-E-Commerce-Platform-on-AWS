@@ -25,10 +25,11 @@ This project demonstrates a complete migration to **Amazon Web Services (AWS)**,
 ## 🔹 High-Level Flow
 
 ```text
-User → Application Load Balancer → EC2 (Auto Scaling)
-     → S3 (Static Assets)
-     → EFS (Shared Storage)
-     → RDS (Database)
+User  → Application Load Balancer
+→ EC2 (Auto Scaling)
+→ S3 (Static Assets)
+→ EFS (Shared Storage)
+→ RDS (Database)
 ```
 
 ---
