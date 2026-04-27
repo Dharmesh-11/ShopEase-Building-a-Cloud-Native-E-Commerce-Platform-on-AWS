@@ -64,7 +64,7 @@ User  → Application Load Balancer
 
 ## 🔐 Task 2: IAM (Access Management)
 
-👉 [View Task 2](docs/task2-iam.md)
+👉 [View Task 2](docs/iam.md)
 
 **Key Points:**
 
