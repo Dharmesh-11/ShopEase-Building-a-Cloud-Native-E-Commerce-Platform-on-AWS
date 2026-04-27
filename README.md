@@ -48,16 +48,6 @@ User → Application Load Balancer → EC2 (Auto Scaling)
 
 ---
 
-## 📂 Architecture Diagram
-
-Located in:
-
-```bash
-/architecture/architecture-diagram.png
-```
-
----
-
 # 🧱 Tasks Documentation
 
 ## 🔹 Task 1: VPC (Network Design)
