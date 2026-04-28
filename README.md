@@ -90,7 +90,7 @@ User  → Application Load Balancer
 
 ## ⚙️ Task 4: EC2 + ALB + Auto Scaling
 
-👉 [View Task 4](docs/task4-ec2.md)
+👉 [View Task 4](docs/ec2.md)
 
 **Key Points:**
 
