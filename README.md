@@ -105,7 +105,7 @@ User  → Application Load Balancer
 
 ## 🗄️ Task 5: RDS (Database)
 
-👉 [View Task 5](docs/task5-rds.md)
+👉 [View Task 5](docs/rds.md)
 
 **Key Points:**
 
@@ -118,7 +118,7 @@ User  → Application Load Balancer
 
 ## 📂 Task 6: EFS (Shared Storage)
 
-👉 [View Task 6](docs/task6-efs.md)
+👉 [View Task 6](docs/efs.md)
 
 **Key Points:**
 
@@ -130,7 +130,7 @@ User  → Application Load Balancer
 
 ## 💾 Task 7: EBS (Block Storage)
 
-👉 [View Task 7](docs/task7-ebs.md)
+👉 [View Task 7](docs/ebs.md)
 
 **Key Points:**
 
@@ -142,7 +142,7 @@ User  → Application Load Balancer
 
 ## 📊 Task 8: Monitoring (CloudWatch + SNS)
 
-👉 [View Task 8](docs/task8-monitoring.md)
+👉 [View Task 8](docs/monitoring.md)
 
 **Key Points:**
 
@@ -188,7 +188,6 @@ screenshots/ec2-alb-autoscaling/
 ```bash
 ShopEase-AWS-Project/
 ├── README.md
-├── architecture/
 ├── screenshots/
 ├── docs/
 ├── scripts/
