@@ -42,7 +42,7 @@ This task covers EC2 infrastructure setup including:
 - Architecture: x86_64
 
 📸 Screenshot:
-![AMI](Ami.png)
+![AMI](../screenshots/task-4-EC2/Ami.png)
 
 ---
 
@@ -54,7 +54,7 @@ This task covers EC2 infrastructure setup including:
 - AMI: Custom AMI
 
 📸 Screenshot:
-![Launch Template](template.png)
+![Launch Template](../screenshots/task-4-EC2/template.png)
 
 ---
 
@@ -66,7 +66,7 @@ This task covers EC2 infrastructure setup including:
 - Target type: Instance
 
 📸 Screenshot:
-![Target Group](target-group.png)
+![Target Group](../screenshots/task-4-EC2/target-group.png)
 
 ---
 
@@ -78,7 +78,7 @@ This task covers EC2 infrastructure setup including:
 - Availability Zones: Multi-AZ
 
 📸 Screenshot:
-![ALB](alb.png)
+![ALB](../screenshots/task-4-EC2/alb.png)
 
 ---
 
@@ -95,7 +95,7 @@ This task covers EC2 infrastructure setup including:
 - Action: Remove 1 instance
 
 📸 Screenshot:
-![Scaling Policy](scaling-policy.png)
+![Scaling Policy](../screenshots/task-4-EC2/scaling-policy.png)
 
 ---
 
