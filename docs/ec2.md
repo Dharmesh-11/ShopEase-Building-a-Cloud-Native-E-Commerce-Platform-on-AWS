@@ -30,7 +30,7 @@ This task covers EC2 infrastructure setup including:
 - Web Server
 
 📸 Screenshot:
-![EC2 Instances](instance.png)
+![EC2 Instances](../screenshots/task-4-EC2/instance.png)
 
 ---
 
