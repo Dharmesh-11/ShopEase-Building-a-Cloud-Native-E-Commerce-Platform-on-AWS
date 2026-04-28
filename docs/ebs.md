@@ -10,12 +10,12 @@ This task demonstrates:
 ---
 
 ## 📦 1. EBS Volume Created
-![EBS Volume](ebs-vloume(10gb).png)
+![EBS Volume](../screenshots/task-7-ebs/ebs-vloume-10gb.png)
 
 ---
 
 ## 🔗 2. Attach Volume to EC2
-![Attach](attach-to-ec2.png)
+![Attach](../screenshots/task-7-ebs/attach-to-ec2.png)
 
 ---
 
@@ -23,7 +23,6 @@ This task demonstrates:
 ```bash
 lsblk
 ```
-![lsblk](lsblk.png)
 
 ---
 
@@ -31,7 +30,7 @@ lsblk
 ```bash
 sudo mkfs.ext4 /dev/nvme1n1p1
 ```
-![Format](format-ext4.png)
+![Format](../screenshots/task-7-ebs/format-ext4.png)
 
 ---
 
@@ -41,7 +40,7 @@ sudo mkdir /data
 sudo mount /dev/nvme1n1p1 /data
 df -h
 ```
-![Mount](mounting.png)
+![Mount](../screenshots/task-7-ebs/mounting.png)
 
 ---
 
@@ -53,17 +52,17 @@ Add:
 ```bash
 /dev/nvme1n1p1 /data ext4 defaults,nofail 0 2
 ```
-![fstab](permant-mount.png)
+![fstab](../screenshots/task-7-ebs/permant-mount.png)
 
 ---
 
 ## 📸 7. Snapshot
-![Snapshot](ebs-volume-snapshot.png)
+![Snapshot](../screenshots/task-7-ebs/ebs-volume-snapshot.png)
 
 ---
 
 ## 🔁 8. Lifecycle Policy
-![Lifecycle](ebs-lifecyle-policies.png)
+![Lifecycle](../screenshots/task-7-ebs/ebs-lifecyle-policies.png)
 
 ---
 
