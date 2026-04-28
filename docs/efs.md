@@ -29,7 +29,7 @@ This task covers Amazon EFS (Elastic File System) setup:
 - Status: Available
 
 📸 Screenshot:
-![EFS Created](create-efs.png)
+![EFS Created](../screenshots/task-6-efs/create-efs.png)
 
 ---
 
@@ -57,7 +57,7 @@ sudo mount -t nfs4 -o nfsvers=4.1 <efs-dns>:/ /mnt/efs
 ```
 
 📸 Screenshot:
-![Mount Options](mounting options.png)
+![Mount Options](../screenshots/task-6-efs/mounting-options.png)
 
 ---
 
@@ -70,7 +70,7 @@ df -h
 ```
 
 📸 Screenshot:
-![Mounted](mounting.png)
+![Mounted](../screenshots/task-6-efs/mounting.png)
 
 ---
 
@@ -82,14 +82,14 @@ df -h
 - Automatic backups enabled
 
 📸 Screenshot:
-![Backup Plan](backup-plan.png)
+![Backup Plan](../screenshots/task-6-efs/backup-plan.png)
 
 ---
 
 # 🔄 6. Backup Configuration
 
 📸 Screenshot:
-![Backup](efs-backup.png)
+![Backup](../screenshots/task-6-efs/efs-backup.png)
 
 ---
 
