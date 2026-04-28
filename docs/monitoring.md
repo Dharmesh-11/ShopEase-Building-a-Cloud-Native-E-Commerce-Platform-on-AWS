@@ -14,37 +14,37 @@ This task covers:
 ```bash
 aws cloudwatch put-metric-data --metric-name ActiveUsers --namespace ShopEase --value 100
 ```
-![Custom Metric](bash-script.png)
+![Custom Metric](../screenshots/task-8-CloudWatch-SNS/bash-script.png)
 
 ---
 
 ## 🚨 2. CloudWatch Alarms
-![Alarms](cloudwatch-alarm.png)
+![Alarms](../screenshots/task-8-CloudWatch-SNS/cloudwatch-alarm.png)
 
 ---
 
 ## 📢 3. SNS Topic Created
-![SNS Topic](create-topic.png)
+![SNS Topic](../screenshots/task-8-CloudWatch-SNS/create-topic.png)
 
 ---
 
 ## 📩 4. Subscription Created
-![Subscription](create-subscrition.png)
+![Subscription](../screenshots/task-8-CloudWatch-SNS/create-subscrition.png)
 
 ---
 
 ## ✅ 5. Subscription Confirmed
-![Confirmed](confirmed-subscriton.png)
+![Confirmed](../screenshots/task-8-CloudWatch-SNS/confirmed-subscriton.png)
 
 ---
 
 ## 📊 6. CloudWatch Dashboard
-![Dashboard](Dashboard.png)
+![Dashboard](../screenshots/task-8-CloudWatch-SNS/Dashboard.png)
 
 ---
 
 ## 📜 7. VPC Flow Logs
-![Logs](vpc-log.png)
+![Logs](../screenshots/task-8-CloudWatch-SNS/vpc-log.png)
 
 ---
 
