@@ -29,7 +29,7 @@ This task covers Amazon RDS (Relational Database Service) setup:
 - Status: Available
 
 📸 Screenshot:
-![Create DB](creating-rds-db.png)
+![Create DB](../screenshots/task-5-rds/creating-rds-db.png)
 
 ---
 
@@ -43,7 +43,8 @@ SHOW DATABASES;
 ```
 
 📸 Screenshot:
-![DB Commands](create-database.png)
+
+![DB Commands](../screenshots/task-5-rds/create-database.png)
 
 ---
 
@@ -56,7 +57,7 @@ mysql -h <rds-endpoint> -u admin -p
 ```
 
 📸 Screenshot:
-![Connect EC2](connet-dabase-to-ec2.png)
+![Connect EC2](../screenshots/task-5-rds/connet-dabase-to-ec2.png)
 
 ---
 
@@ -67,7 +68,7 @@ mysql -h <rds-endpoint> -u admin -p
 - Subnets: Private subnets
 
 📸 Screenshot:
-![Subnet Group](db-subnet-group.png)
+![Subnet Group](../screenshots/task-5-rds/db-subnet-group.png)
 
 ---
 
@@ -78,7 +79,7 @@ mysql -h <rds-endpoint> -u admin -p
 - Snapshot created
 
 📸 Screenshot:
-![Backup](backup.png)
+![Backup](../screenshots/task-5-rds/backup.png)
 
 ---
 
