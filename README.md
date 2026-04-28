@@ -77,7 +77,7 @@ User  → Application Load Balancer
 
 ## 🪣 Task 3: S3 (Object Storage)
 
-👉 [View Task 3](docs/task3-s3.md)
+👉 [View Task 3](docs/s3.md)
 
 **Key Points:**
 
